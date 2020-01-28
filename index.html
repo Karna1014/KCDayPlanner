@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src= "https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/reset.css">
+    <link href="CSS/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Fondamento&display=swap" rel="stylesheet">
+    <title>Day Planner</title>
+    </head>
+
+    <body>
+       <header>
+            <center>
+                <h1 class="display-4">Work Day Scheduler</h1>
+                <p class="lead">A simple calendar app to schedule your day.</p>
+                <p class ="lead" id="currentDay"></p>
+            </center>
+       </header> 
+  
+        <div class="container" style= "text-align: center;" id= "Wdp">
+            <div class= "row">
+                <span class="badge badge-light" id="ts1"><br>9:00a</span>
+                    <input type="text" class="toDo" style= "min-height: 48px; width: 525px;" id="myInput1" placeholder="..."></input>
+                        <button type="button" class= "btn btn-lg btn-left" id="save1" style="background: chartreuse;">
+                            <i class="far fa-save"></i>
+                        </button>
+            </div> 
+
+            <div class= "row">
+                <span class="badge badge-light" id="ts2"><br>10:00a</span>  
+                    <input type="text" class="toDo" style= "min-height: 48px; width: 525px;" id="myInput2" placeholder="..."></input>
+                        <button type="button" class= "btn btn-lg btn-left" id="save2" style="background: chartreuse;">
+                            <i class="far fa-save"></i>
+                        </button>        
+            </div>
+
+            <div class= "row">
+                <span class="badge badge-light" id="ts3"><br>11:00a</span>   
+                    <input type="text" class="toDo" style= "min-height: 48px; width: 525px;" id="myInput3" placeholder="..."></input>
+                        <button type="button" class= "btn btn-lg btn-left" id="save3" style="background: chartreuse;">
+                            <i class="far fa-save"></i>
+                        </button>                       
+            </div>
+
+            <div class= "row">
+                <span class="badge badge-light" id="ts4"><br>12:00</span>       
+                    <input type="text" class="toDo" style= "min-height: 48px; width: 525px;" id="myInput4" placeholder="..."></input>
+                    <button type="button" class= "btn btn-lg btn-left" id="save4" style="background: chartreuse;">
+                        <i class="far fa-save"></i>
+                    </button> 
+            </div>
+
+            <div class= "row">
+                <span class="badge badge-light" id="ts5"><br>1:00p</span>        
+                    <input type="text" class="toDo" style= "min-height: 48px; width: 525px;" id="myInput5" placeholder="..."></input>
+                        <button type="button" class= "btn btn-lg btn-left" id="save5" style="background: chartreuse;">
+                            <i class="far fa-save"></i>
+                        </button>       
+            </div>
+
+            <div class= "row">
+                <span class="badge badge-light" id="ts6"><br>2:00p</span>        
+                    <input type="text" class="toDo" style= "min-height: 48px; width: 525px;" id="myInput6" placeholder="..."></input>
+                        <button type="button" class= "btn btn-lg btn-left" id="save6" style="background: chartreuse;">
+                            <i class="far fa-save"></i>
+                        </button>      
+            </div>
+
+            <div class= "row">
+                <span class="badge badge-light" id="ts7"><br>3:00p</span>   
+                    <input type="text" class="toDo" style= "min-height: 48px; width: 525px;" id="myInput7" placeholder="..."></input>
+                        <button type="button" class= "btn btn-lg btn-left" id="save7" style="background: chartreuse;">
+                            <i class="far fa-save"></i>
+                        </button>      
+            </div>
+
+            <div class= "row">
+                <span class="badge badge-light" id="ts8"><br>4:00p</span>        
+                    <input type="text" class="toDo" style= "min-height: 48px; width: 525px;" id="myInput8" placeholder="..."></input>
+                        <button type="button" class= "btn btn-lg btn-left" id="save8" style="background: chartreuse;">
+                            <i class="far fa-save"></i>
+                        </button>     
+            </div>
+
+            <div class= "row">
+                <span class="badge badge-light" id="ts9"><br>5:00p</span>     
+                    <input type="text" class="toDo" style= "min-height: 48px; width: 525px;" id="myInput9" placeholder="..."></input>
+                        <button type="button" class= "btn btn-lg btn-left" id="save9" style="background: chartreuse;">
+                            <i class="far fa-save"></i>
+                        </button>      
+            </div>
+        </div>
+        <script src= "script.js"></script>
+        <script src="moment.js"></script>
+        <!-- <script src="/js/moment.executor.js"></script> -->
+    </body>
+
+</html>

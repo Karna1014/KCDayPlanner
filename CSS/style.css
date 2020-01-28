@@ -1,0 +1,48 @@
+
+* {
+  box-sizing: border-box;
+}
+
+#Wdp {
+  width: 700px;
+  margin: 0 auto;
+}
+.row {
+  margin-right: 0px;
+}
+.badge {
+  width: 100px;
+  height: 50px;
+  margin-right: 0px;
+  padding: 0px;
+  background-color: chartreuse;
+  color: black;
+  text-align: center;
+  flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#myInput {
+  width: 500px;
+  height: auto;
+  padding: 0px;
+  margin-right: 0px;
+
+}
+header {
+  border-bottom: groove;
+  border-width: 5px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-weight: bold;
+  font-family: fondamento; cursive;
+  
+}
+
+p {
+  font-family: fondamento;
+}
+
