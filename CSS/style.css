@@ -4,27 +4,31 @@
 }
 
 #Wdp {
-  width: 700px;
   margin: 0 auto;
 }
 .row {
   margin-right: 0px;
 }
-.badge {
-  width: 100px;
-  height: 50px;
+#ts1, #ts2, #ts3, #ts4, #ts5, #ts6, #ts7, #ts8, #ts9 {
+  width: 100%;
+  height: auto;
   margin-right: 0px;
   padding: 0px;
-  background-color: chartreuse;
+  background-color: mediumaquamarine;
   color: black;
   text-align: center;
   flex-direction: column;
 	align-items: center;
-	justify-content: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+  border-top: 1px;
+  border-bottom: 1px;
+  border-top-color: rgb(51, 2, 2);
+  border-bottom-color: rgb(51, 2, 2);
 }
 
 #myInput {
-  width: 500px;
   height: auto;
   padding: 0px;
   margin-right: 0px;
