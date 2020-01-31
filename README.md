@@ -17,7 +17,7 @@ A simple calendar application that allows the user to save events for each hour 
 
 
 **Usage:**
-Companies often proactively encourage the use of planners as a tool for time management.  Poor time management can be very costly resulting in missed meeting, deadlines or creating the appearance of unproffessionalism.  A planner allows employees to see their day at a glance, schedule time effectively, and improve productively.
+Companies often proactively encourage the use of planners as a tool for time management.  Poor time management can be very costly resulting in missed meeting, deadlines or creating the appearance of unprofessionalism.  A planner allows employees to see their day at a glance, schedule time effectively, and improve productively.
 
 
 ### File List:
