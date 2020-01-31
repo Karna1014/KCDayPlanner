@@ -8,9 +8,9 @@ A simple calendar application that allows the user to save events for each hour 
 1. Planner is set for standard business hours (9 a.m. to 5 p.m.).
 2. Each time slot represents 1 hour block.
 3. Each block should contain the following:
-        a. The Hour
-        b. An Input Field
-        c. A Save/Commit Button
+        -a. The Hour
+        -b. An Input Field
+        -c. A Save/Commit Button
 4. "Save/Commit" will store time and user input in localStorage.
 5. Current Day/Date will update dynamically daily at top of page.
 6. Input Field is highlighted to denote current vs past and future events.
