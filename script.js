@@ -8,15 +8,7 @@ var myInput6El = document.getElementById("myInput6");
 var myInput7El = document.getElementById("myInput7");
 var myInput8El = document.getElementById("myInput8");
 var myInput9El = document.getElementById("myInput9");
-var save1El = document.getElementById("save1");
-var save2El = document.getElementById("save2");
-var save3El = document.getElementById("save3");
-var save4El = document.getElementById("save4");
-var save5El = document.getElementById("save5");
-var save6El = document.getElementById("save6");
-var save7El = document.getElementById("save7");
-var save8El = document.getElementById("save8");
-var save9El = document.getElementById("save9");
+
 
 
 //posts 'today's date' at top of page
