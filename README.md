@@ -26,7 +26,7 @@ Companies often proactively encourage the use of planners as a tool for time man
     
     Main Page - Day Planner
 
-2. Quiz.js    
+2. Script.js    
     
     Javascript for Main Page 
 
@@ -36,7 +36,7 @@ Companies often proactively encourage the use of planners as a tool for time man
 
 4. Style.css
 
-    Stylesheet for all.js 
+    Stylesheet for all 
 
 5. Reset.css         
 
